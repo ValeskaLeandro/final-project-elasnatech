@@ -13,6 +13,7 @@ import usePersistedState from "./hooks/usePersistedState";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Header toggleTheme={toggleTheme} checked={checked}/>
       <Main />
       <Footer />
+      <ScrollToTop />
     </ThemeProvider>
   )
 }
