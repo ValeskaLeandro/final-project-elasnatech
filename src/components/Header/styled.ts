@@ -60,6 +60,7 @@ export const ButtonChangeTheme = styled.div`
   }
     
 `
+
 export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -71,23 +72,39 @@ export const Nav = styled.nav`
     list-style: none;
 
     & li:not(:last-child){
-      overflow: hidden;
       position: relative;
       
       &::before {
         content: "";
         position: absolute;
         bottom: 0;
-        right: 100%;
-        width: 100%;
+        left: 0;
+        width: 0;
         height: 3px;
         background-color: ${props => props.theme.colors.primaryColor};
         transition: .5s;
       }
 
       &:hover::before {
-        right: 0;
+        width: 100%;
       }
+    }
+    .dropdown {      
+      position: relative;
+    }
+    .dropdown .menu-dropdown {
+      list-style: none;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;      
+      position: absolute;
+      gap: .5rem;
+      right: 0;
+      z-index: 3;
+      border-radius: 5px;
+      background-color: ${props => props.theme.colors.primaryColor};
+      padding: 1rem;
     }
   }
 
@@ -145,6 +162,7 @@ export const Nav = styled.nav`
     }
   }
 `
+
 export const MenuHamburguer = styled.button`
   display: none;
   border: none;
@@ -167,5 +185,19 @@ export const MenuHamburguer = styled.button`
   @media (max-width: 998px) {
     display: block;
     z-index: 2;
+  }
+`
+
+export const Dropdown = styled.button`
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: none;
+  background: none;
+  color: ${props => props.theme.colors.title};
+  display: flex;
+  align-items: center;
+
+  svg {
+    font-size: 2.5rem;
   }
 `
