@@ -21,4 +21,18 @@ export default createGlobalStyle`
     flex-direction: column;
     align-items: center;
   }
+
+  ::-webkit-scrollbar {
+    width: 10px; 
+    
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: ${props => props.theme.colors.primaryColor};  
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: ${props => props.theme.colors.secundaryColor}; 
+  }
 `
