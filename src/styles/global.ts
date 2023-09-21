@@ -14,4 +14,11 @@ export default createGlobalStyle`
     font-size: 1rem;
     color: ${props => props.theme.colors.text};
   }
+
+  #root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `

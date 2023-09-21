@@ -11,6 +11,7 @@ import usePersistedState from "./hooks/usePersistedState";
 
 // Components
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 
 function App() {
@@ -19,11 +20,12 @@ function App() {
     setTheme(theme.title === "light"? dark : light);
     setChecked(checked === false ? true : false);
   }
-  
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header toggleTheme={toggleTheme} checked={checked}/>
+      <Main />
     </ThemeProvider>
   )
 }
