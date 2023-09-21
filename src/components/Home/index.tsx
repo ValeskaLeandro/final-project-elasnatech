@@ -8,6 +8,7 @@ import { AiFillLinkedin, AiOutlineGithub, AiOutlineInstagram } from "react-icons
 import { BsFillChatHeartFill } from "react-icons/bs";
 import { PiArrowRightBold } from "react-icons/pi";
 import { FaLocationDot } from "react-icons/fa6";
+
 // Components
 import MainButton from "../MainButton";
 

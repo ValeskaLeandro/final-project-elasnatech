@@ -12,6 +12,7 @@ import usePersistedState from "./hooks/usePersistedState";
 // Components
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <GlobalStyle />
       <Header toggleTheme={toggleTheme} checked={checked}/>
       <Main />
+      <Footer />
     </ThemeProvider>
   )
 }

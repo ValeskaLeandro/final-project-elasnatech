@@ -1,10 +1,11 @@
+// Styles
 import { Logotype } from "./styled"
-interface LogoProps {
-  classe?: boolean
-}
-export default function Logo({classe}: LogoProps) {
+
+// Interfaces
+import { ILogo } from "../../utils/interfaces"
+export default function Logo({footer}: ILogo) {
   return(
-    <Logotype className={classe ? 'footer' : ''}>
+    <Logotype className={footer ? 'footer' : ''}>
       <h1><span className="sinal">{"<"}</span>Valeska<span className="bar">{"/"}</span><span className="sinal">{">"}</span></h1>
     </Logotype>
   )
