@@ -786,9 +786,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       transition: 1s ease-out;
       z-index: 1;
       flex-direction: column;
-      justify-content: space-around;
       align-items: center;
-      gap: 0;
+      gap: 5rem;
+      padding: 5rem 0;
       pointer-events: none;
     }
 
