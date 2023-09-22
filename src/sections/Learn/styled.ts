@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const LearnSection = styled.section`
+  align-items: end;
 
   .contentLearn {
     max-width: 600px;
