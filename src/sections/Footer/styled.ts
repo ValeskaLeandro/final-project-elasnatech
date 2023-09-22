@@ -9,6 +9,7 @@ export const FooterContainer = styled.footer`
   
   .content {
     width: 80%;
+    max-width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;

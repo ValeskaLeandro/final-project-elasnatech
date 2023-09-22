@@ -8,6 +8,9 @@ export default createGlobalStyle`
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     background-color: ${props => props.theme.colors.primaryBackground};
@@ -42,5 +45,15 @@ export default createGlobalStyle`
     padding-bottom: 5rem;
     width: 100%;
     max-width: 1500px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: ${props => props.theme.colors.secundaryColor};
+    transition: .4s;
+
+    &:hover {
+      color: ${props => props.theme.colors.primaryColor};
+    }
   }
 `

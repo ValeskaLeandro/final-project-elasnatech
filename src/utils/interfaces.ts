@@ -1,3 +1,5 @@
+import { IconType } from "react-icons"
+
 export interface IHeader {
   toggleTheme(): void,
   checked: boolean
@@ -16,4 +18,18 @@ export interface ITitle {
 
 export interface IDescription {
   children: React.ReactNode
+}
+
+export interface ICard {
+  id: number,
+  name: string,
+  description: string,
+  code: string,
+  deploy: string,
+  tecnologys: IconType[],
+  img: string
+}
+
+export interface IProjects {
+  projects: ICard[]
 }

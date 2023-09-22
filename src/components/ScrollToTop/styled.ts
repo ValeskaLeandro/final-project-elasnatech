@@ -13,6 +13,7 @@ export const ButtonTop = styled.button`
   transition: 0.5s ease-in-out;
   
   position: fixed;
+  z-index:2;
   right: 2rem;
   bottom: 2rem;
   visibility: hidden;

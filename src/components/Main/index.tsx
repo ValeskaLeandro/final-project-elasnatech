@@ -7,7 +7,8 @@ import About from "../../sections/About";
 import Start from "../../sections/Start";
 import Learn from "../../sections/Learn";
 import Testimony from "../../sections/Testimony";
-
+import Projects from "../../sections/Projects";
+import { projects } from "../../data/data"
 export default function Main() {
   return(
     <MainContainer>
@@ -16,6 +17,7 @@ export default function Main() {
       <Start />
       <Learn />
       <Testimony />
+      <Projects projects={projects}/>
     </MainContainer>
   )
 }
