@@ -145,7 +145,7 @@ export const Nav = styled.nav`
     }
 
     &.active .nav-list a {
-      color: ${props => props.theme.colors.text};
+      color: ${props => props.theme.colors.title};
     }
 
     &.active button {

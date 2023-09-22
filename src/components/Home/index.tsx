@@ -14,7 +14,7 @@ import MainButton from "../MainButton";
 
 const Home = () => {
   return(
-    <HomeSection>
+    <HomeSection id="home">
       <div className="content">
         <div className="left">
           <span>Olá, eu sou</span>

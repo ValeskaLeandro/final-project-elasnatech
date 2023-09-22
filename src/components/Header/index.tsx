@@ -26,8 +26,8 @@ export default function Header({ toggleTheme, checked }: IHeader) {
         <Nav className={openMenu ? 'active' : '' }>
           <MenuHamburguer onClick={toggleMenu} />
           <ul className="nav-list"> 
-            <li><a href="#" onClick={toggleMenu}>Home</a></li>
-            <li><a href="#" onClick={toggleMenu}>Sobre</a></li>
+            <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+            <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
             <li className="dropdown">
               <Dropdown onClick={() => setOpenDropdown(!openDropdown)}>
                 Elas na Tech

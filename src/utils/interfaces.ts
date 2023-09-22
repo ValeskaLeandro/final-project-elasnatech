@@ -7,3 +7,8 @@ export interface IHeader {
 export interface ILogo {
   footer?: boolean
 }
+
+export interface ITitle {
+  title: string,
+  subtitle: string
+}
