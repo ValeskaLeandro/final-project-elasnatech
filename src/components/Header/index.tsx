@@ -27,7 +27,7 @@ export default function Header({ toggleTheme, checked }: IHeader) {
           <MenuHamburguer onClick={toggleMenu} />
           <ul className="nav-list"> 
             <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-            <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
+            <li><a href="#about" onClick={toggleMenu}>Sobre mim</a></li>
             <li className="dropdown">
               <Dropdown onClick={() => setOpenDropdown(!openDropdown)}>
                 Elas na Tech
@@ -44,11 +44,13 @@ export default function Header({ toggleTheme, checked }: IHeader) {
                   <li >
                     <a href="#" onClick={toggleDropdown}>Aprendizado</a>
                   </li>
+                  <li >
+                    <a href="#" onClick={toggleDropdown}>Depoimento</a>
+                  </li>
                 </ul>
               ) : null}         
             </li>
             <li><a href="#" onClick={toggleMenu}>Projetos</a></li>
-            <li><a href="#" onClick={toggleMenu}>Depoimento</a></li>
             <li><a href="#" onClick={toggleMenu}>Contato</a></li>
             <li>
               <ButtonChangeTheme>

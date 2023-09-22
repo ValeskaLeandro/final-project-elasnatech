@@ -4,7 +4,7 @@ export const TitleContainer = styled.div`
   width:  100%;
   display: flex;
   align-items: end;
-  justify-content: center; 
+  margin-bottom: 3rem;
   span {
     font-size: 7rem;
     font-weight: 800;
@@ -17,5 +17,13 @@ export const TitleContainer = styled.div`
     color: ${props => props.theme.colors.secundaryColor};
     font-weight: 600;
     position: absolute;
+  }
+
+  &.end {
+    justify-content: end;
+  }
+
+  &.start {
+    justify-content: start;
   }
 `

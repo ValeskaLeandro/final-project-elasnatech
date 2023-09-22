@@ -10,5 +10,6 @@ export interface ILogo {
 
 export interface ITitle {
   title: string,
-  subtitle: string
+  subtitle: string,
+  classname: string
 }
