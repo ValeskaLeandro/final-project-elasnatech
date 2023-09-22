@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
         <div className="rigth">
-          <img src="/image-main.svg" alt="Valeska Leandro - Desenvolvedora Front-end" />
+          <img src="./image-main.svg" alt="Valeska Leandro - Desenvolvedora Front-end" />
           <div className="socialMedia">
             <a href="https://www.linkedin.com/in/valeskaleandro/" target="_blank"><AiFillLinkedin /></a>
             <a href="https://github.com/ValeskaLeandro" target="_blank"><AiOutlineGithub /></a>
