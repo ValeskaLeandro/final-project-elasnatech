@@ -49,6 +49,10 @@ export const FooterContainer = styled.footer`
 
       @media (max-width: 998px) {
         align-items: center;
+
+        p {
+          text-align: center;
+        }
       }
     }
 

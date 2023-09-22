@@ -41,5 +41,6 @@ export default createGlobalStyle`
     flex-direction: column;
     padding-bottom: 5rem;
     width: 100%;
+    max-width: 1500px;
   }
 `

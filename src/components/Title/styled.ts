@@ -34,7 +34,7 @@ export const TitleContainer = styled.div`
 
   @media (max-width: 998px) {
     span {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     h1 {
       font-size: 2rem;
