@@ -2,12 +2,12 @@
 import { StartSection } from "./styled";
 
 // Components
-import Title from "../Title";
-import Description from "../Description";
+import Title from "../../components/Title";
+import Description from "../../components/Description";
 
 export default function Start() {
   return(
-    <StartSection>
+    <StartSection id="start">
       <Title title="Início" subtitle="<ElasNaTech/>" classname="start"/>
       <div className="content">
         <div className="image">

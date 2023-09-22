@@ -1,3 +1,4 @@
+// Styles
 import { Link } from "./styled";
 
 interface ButtonProps {

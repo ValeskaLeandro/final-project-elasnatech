@@ -10,10 +10,12 @@ import GlobalStyle from "./styles/global"
 import usePersistedState from "./hooks/usePersistedState";
 
 // Components
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Main from "./components/Main";
+
+// Sections
+import Header from "./sections/Header";
+import Footer from "./sections/Footer";
 
 
 function App() {

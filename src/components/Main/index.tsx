@@ -1,10 +1,11 @@
 // Styles
 import { MainContainer } from "./styled";
 
-// Components
-import Home from "../Home";
-import About from "../About";
-import Start from "../Start";
+// Sections
+import Home from "../../sections/Home";
+import About from "../../sections/About";
+import Start from "../../sections/Start";
+import Learn from "../../sections/Learn";
 
 export default function Main() {
   return(
@@ -12,6 +13,7 @@ export default function Main() {
       <Home />
       <About />
       <Start />
+      <Learn />
     </MainContainer>
   )
 }

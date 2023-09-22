@@ -10,11 +10,11 @@ import { PiArrowRightBold } from "react-icons/pi";
 import { FaLocationDot } from "react-icons/fa6";
 
 // Components
-import MainButton from "../MainButton";
+import MainButton from "../../components/MainButton";
 
 const Home = () => {
   return(
-    <HomeSection id="home">
+    <HomeSection id="home" className="container">
       <div className="content">
         <div className="left">
           <span>Olá, eu sou</span>

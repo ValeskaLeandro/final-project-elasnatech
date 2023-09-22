@@ -2,9 +2,6 @@ import styled from "styled-components"
 
 export const HomeSection = styled.section`
   height: calc(100vh - 8rem);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   

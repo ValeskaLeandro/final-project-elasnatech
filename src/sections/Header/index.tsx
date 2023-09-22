@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { ButtonChangeTheme, Dropdown, HeaderContainer, MenuHamburguer, Nav } from "./styled"
-import Logo from "../Logo"
+import Logo from "../../components/Logo"
 import { IHeader } from "../../utils/interfaces"
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
@@ -36,22 +36,19 @@ export default function Header({ toggleTheme, checked }: IHeader) {
               {openDropdown ? (
                 <ul className="menu-dropdown">
                   <li>
-                    <a href="#" onClick={toggleDropdown}>Início</a>
-                  </li>
-                  <li>
-                    <a href="#" onClick={toggleDropdown}>Desafios</a>
+                    <a href="#start" onClick={toggleDropdown}>Início</a>
                   </li>
                   <li >
-                    <a href="#" onClick={toggleDropdown}>Aprendizado</a>
+                    <a href="#learn" onClick={toggleDropdown}>Aprendizado</a>
                   </li>
                   <li >
-                    <a href="#" onClick={toggleDropdown}>Depoimento</a>
+                    <a href="#testimony" onClick={toggleDropdown}>Depoimento</a>
                   </li>
                 </ul>
               ) : null}         
             </li>
-            <li><a href="#" onClick={toggleMenu}>Projetos</a></li>
-            <li><a href="#" onClick={toggleMenu}>Contato</a></li>
+            <li><a href="#projects" onClick={toggleMenu}>Projetos</a></li>
+            <li><a href="#contact" onClick={toggleMenu}>Contato</a></li>
             <li>
               <ButtonChangeTheme>
                 <label className="switch">

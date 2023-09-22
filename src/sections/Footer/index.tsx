@@ -6,7 +6,7 @@ import { AiFillLinkedin, AiOutlineGithub, AiOutlineInstagram } from "react-icons
 
 
 // Components
-import Logo from "../Logo";
+import Logo from "../../components/Logo";
 
 export default function Footer() {
   return(

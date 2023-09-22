@@ -1,6 +1,11 @@
-import { useState, useEffect, useCallback } from 'react';
-import { AiOutlineArrowUp } from 'react-icons/ai';
+// Styles
 import { ButtonTop } from './styled';
+
+// Hooks
+import { useState, useEffect, useCallback } from 'react';
+
+// Utilities
+import { AiOutlineArrowUp } from 'react-icons/ai';
 
 const ScrollToTop = () => {
   const [showButton, setShowButton] = useState(false);

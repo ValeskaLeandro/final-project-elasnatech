@@ -2,17 +2,17 @@
 import { AboutSection } from "./styled";
 
 // Components
-import Title from "../Title";
+import Title from "../../components/Title";
 
 // Icons
 import { FaLocationDot } from "react-icons/fa6";
 import { MdCake, MdPets } from "react-icons/md";
 import { HiAcademicCap } from "react-icons/hi";
-import Description from "../Description";
+import Description from "../../components/Description";
  
 export default function About() {
   return(
-    <AboutSection id="about">
+    <AboutSection id="about" className="container">
       <Title title="Sobre mim" subtitle="<About/>" classname="end"/>
       <div className="content">
         <div className="image">

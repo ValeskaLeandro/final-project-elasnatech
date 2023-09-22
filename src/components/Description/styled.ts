@@ -11,6 +11,7 @@ export const DescriptionContainer = styled.div`
     text-decoration: none;
     font-weight: 600;
     color: ${props => props.theme.colors.secundaryColor};
+    transition: .4s;
 
   }
 

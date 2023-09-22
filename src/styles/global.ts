@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
   * {
@@ -34,5 +34,12 @@ export default createGlobalStyle`
 
   ::-webkit-scrollbar-thumb:hover {
     background: ${props => props.theme.colors.secundaryColor}; 
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    width: 100%;
   }
 `
