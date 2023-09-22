@@ -6,11 +6,10 @@ export default {
     secundaryColor: "#0CC3C9",
 
     primaryBackground: "#191524",
-    secundaryBackground: "#1c152d",
+    secundaryBackground: "#241b3a",
     title: "#E2E2E2",
     text: "#AFAFAF",
     black: "#050505",
     white: "#F0F0F0"
-
   }
 }

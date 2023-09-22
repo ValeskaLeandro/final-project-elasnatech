@@ -1,14 +1,14 @@
 // Styles
-import { AboutSection, Description } from "./styled";
+import { AboutSection } from "./styled";
 
 // Components
 import Title from "../Title";
-
 
 // Icons
 import { FaLocationDot } from "react-icons/fa6";
 import { MdCake, MdPets } from "react-icons/md";
 import { HiAcademicCap } from "react-icons/hi";
+import Description from "../Description";
  
 export default function About() {
   return(

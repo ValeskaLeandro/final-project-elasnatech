@@ -38,7 +38,18 @@ export const FooterContainer = styled.footer`
     }
 
     .copy {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+      align-items: end;
+
+      a > img {
+        max-width: 120px;
+      }
+
+      @media (max-width: 998px) {
+        align-items: center;
+      }
     }
 
     @media (max-width: 998px) {

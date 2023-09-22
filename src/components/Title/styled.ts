@@ -5,7 +5,11 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: end;
   margin-bottom: 3rem;
-
+  .contentTitle {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
   span {
     font-size: 7rem;
     font-weight: 800;

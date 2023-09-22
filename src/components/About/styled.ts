@@ -49,30 +49,3 @@ export const AboutSection = styled.section`
     }
   }
 `
-
-export const Description = styled.div`  
-  margin-top: 2rem;
-  
-  p {
-    font-size: 1.6rem;
-    text-align: justify;
-  }
-
-  span {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: ${props => props.theme.colors.secundaryColor};
-    transition: .4s;
-
-    &:hover {
-      color: ${props => props.theme.colors.primaryColor};
-    }
-  }
-
-  p, span {
-    @media (max-width: 998px) {
-      font-size: 1.4rem;      
-    }
-  }
-  
-`

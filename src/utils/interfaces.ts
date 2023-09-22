@@ -13,3 +13,7 @@ export interface ITitle {
   subtitle: string,
   classname: string
 }
+
+export interface IDescription {
+  children: React.ReactNode
+}

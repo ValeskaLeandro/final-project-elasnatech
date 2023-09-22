@@ -22,6 +22,9 @@ export default function Footer() {
           </SocialMedia>
         </div>
         <div className="copy">
+          <a href="https://jabrasil.org.br/elasnatech23/">
+            <img src="./logo-elas-na-tech-white.svg" alt="Logo Elas na Tech" />
+          </a>
           <p>Copyright © 2023 <a href="">Valeska Leandro</a>. Todos os direitos reservados.</p>
         </div>
       </div>
