@@ -5,6 +5,7 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: end;
   margin-bottom: 3rem;
+
   span {
     font-size: 7rem;
     font-weight: 800;
@@ -25,5 +26,14 @@ export const TitleContainer = styled.div`
 
   &.start {
     justify-content: start;
+  }
+
+  @media (max-width: 998px) {
+    span {
+      font-size: 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
   }
 `

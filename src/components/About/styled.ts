@@ -4,6 +4,7 @@ export const AboutSection = styled.section`
   display: flex;
   flex-direction: column;
   padding-bottom: 5rem;
+  width: 100%;
 
   .content {
     display: flex;
@@ -35,6 +36,17 @@ export const AboutSection = styled.section`
         }
       } 
     }
+
+    @media (max-width: 998px) {
+      flex-direction: column;
+
+      .infos-about .items-info {
+        font-size: 1.2rem;
+        & span svg {
+          font-size: 1.8rem;
+        }
+      }
+    }
   }
 `
 
@@ -43,6 +55,7 @@ export const Description = styled.div`
   
   p {
     font-size: 1.6rem;
+    text-align: justify;
   }
 
   span {
@@ -53,7 +66,13 @@ export const Description = styled.div`
 
     &:hover {
       color: ${props => props.theme.colors.primaryColor};
-
     }
   }
+
+  p, span {
+    @media (max-width: 998px) {
+      font-size: 1.4rem;      
+    }
+  }
+  
 `
