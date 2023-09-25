@@ -42,7 +42,7 @@ export const projects = [
   },
   {
     id: 105,
-    name: "Validation Nummber",
+    name: "Validation Number",
     description: "Projeto de validação de número desenvolvido com o objetivo de verificar se o número digitado aderi a umas série de critérios pré-definidos com objetivo de aprimorar conhecimentos em JavaScript.",
     code: "https://github.com/ValeskaLeandro/validation-number-elasnatech",
     deploy: "https://valeskaleandro.github.io/validation-number-elasnatech/",
@@ -62,8 +62,8 @@ export const projects = [
     id: 107,
     name: "Portfólio - ElasNaTech",
     description: "Este projeto foi desenvolvido com projeto final para o programa Elas na Tech afim de demostrar meus conhecimentos em desenvolvimento web fron-end.",
-    code: "https://github.com/ValeskaLeandro/puppies-petshop",
-    deploy: "https://valeskaleandro.github.io/puppies-petshop/",
+    code: "https://github.com/ValeskaLeandro/final-project-elasnatech",
+    deploy: "https://valeskaleandro.github.io/final-project-elasnatech/",
     tecnologys: [SiReact, TbBrandVite, SiStyledcomponents, SiTypescript],
     img: "./projects/portfolio1.png"
   },
