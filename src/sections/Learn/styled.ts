@@ -23,22 +23,6 @@ export const LearnSection = styled.section`
     ul li::marker {
       color: ${props => props.theme.colors.secundaryColor};
     }
-
-    .iframe-container {
-      position: relative;
-      overflow: hidden;
-      max-width: 100%;
-      padding-bottom: 56.25%; /* (9 / 16 * 100%) */
-    }
-
-    .iframe-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
   }
   @media (max-width: 998px) {
     align-items: center;
