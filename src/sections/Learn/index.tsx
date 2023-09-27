@@ -25,6 +25,9 @@ export default function Learn() {
           <li>Styled-Components</li>
           <li>NodeJS</li>
         </ul>
+        <div className="iframe-container">
+          <iframe src="https://www.powtoon.com/embed/d5irvpoRrPA/" frameBorder="0" allowFullScreen></iframe>
+        </div>
       </div>
 
     </LearnSection>
