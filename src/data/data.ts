@@ -32,7 +32,7 @@ export const projects = [
     img: "./projects/thebakery.png"
   },
   {
-    id: 104,
+    id: 103,
     name: "Calculator",
     description: "Uma calculadora totalmente funcional, desenvolvida afim de aprimorar os conhecimentos em JavaScript. Essa conta com várias possíveis operações além de um botão para alternar entre dark mode/light mode. Aqui usei o método eval() do próprio JavaScript, que para esse caso foi uma solução bem simples e funcional.",
     code: "https://github.com/ValeskaLeandro/calculator-elasnatech",
@@ -41,7 +41,7 @@ export const projects = [
     img: "./projects/calculator.png"
   },
   {
-    id: 105,
+    id: 104,
     name: "Validation Number",
     description: "Projeto de validação de número desenvolvido com o objetivo de verificar se o número digitado aderi a umas série de critérios pré-definidos com objetivo de aprimorar conhecimentos em JavaScript.",
     code: "https://github.com/ValeskaLeandro/validation-number-elasnatech",
@@ -59,7 +59,7 @@ export const projects = [
     img: "./projects/themovie.png"
   },
   {
-    id: 107,
+    id: 105,
     name: "Portfólio - ElasNaTech",
     description: "Este projeto foi desenvolvido com projeto final para o programa Elas na Tech afim de demostrar meus conhecimentos em desenvolvimento web fron-end.",
     code: "https://github.com/ValeskaLeandro/final-project-elasnatech",
@@ -68,12 +68,12 @@ export const projects = [
     img: "./projects/portfolio1.png"
   },
   {
-    id: 108,
+    id: 106,
     name: "Portfólio",
-    description: "Projeto pessoal com objetivo de divulgar meu trabalho como desenvolvedora Front-end.",
-    code: "https://github.com/ValeskaLeandro/puppies-petshop",
-    deploy: "https://valeskaleandro.github.io/puppies-petshop/",
+    description: "Projeto pessoal com objetivo minhas habilidades com desenvolvedora front-end e, por suposto, digulgar meu trabalho de forma limpa e profissional.",
+    code: "https://github.com/ValeskaLeandro/portfolio",
+    deploy: "https://valeskaleandro.vercel.app/",
     tecnologys: [SiReact, TbBrandVite, SiStyledcomponents, SiTypescript],
-    img: "./projects/portfolio1.png"
+    img: "./projects/portfolio2.png"
   },
 ]

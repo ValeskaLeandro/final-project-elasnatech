@@ -40,7 +40,7 @@ const Home = () => {
             </span>
           </div>
           <div className="button">
-            <MainButton text="Conheça meu portfólio" icon={PiArrowRightBold}/>
+            <MainButton text="Conheça meu portfólio" icon={PiArrowRightBold} link="https://valeskaleandro.vercel.app/"/>
           </div>
         </div>
         <div className="rigth">

@@ -16,6 +16,12 @@ export interface ITitle {
   classname: string
 }
 
+export interface IButton {
+  text: string,
+  icon?: React.ElementType,
+  link: string
+}
+
 export interface IDescription {
   children: React.ReactNode
 }
