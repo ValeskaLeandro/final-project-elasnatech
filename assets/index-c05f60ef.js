@@ -523,27 +523,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     ul li::marker {
       color: ${e=>e.theme.colors.secundaryColor};
     }
-
-    .iframe-container {
-      position: relative;
-      overflow: hidden;
-      max-width: 100%;
-      padding-bottom: 56.25%; /* (9 / 16 * 100%) */
-    }
-
-    .iframe-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
   }
   @media (max-width: 998px) {
     align-items: center;
   }
-`;function Dm(){return x.jsxs(Rm,{id:"learn",className:"container",children:[x.jsx(or,{title:"Aprendizado",subtitle:"<ElasNaTech/>",classname:"end"}),x.jsxs("div",{className:"contentLearn",children:[x.jsx("p",{children:"Esses foram alguns tópicos que aprendi durante o programa:"}),x.jsxs("ul",{children:[x.jsx("li",{children:"Animações com CSS"}),x.jsx("li",{children:"SEO"}),x.jsx("li",{children:"Bootstrap"}),x.jsx("li",{children:"Automações AWS com Python"}),x.jsx("li",{children:"Python + ChatGPT para além de textos."})]}),x.jsx("p",{children:"Aprendizado com cursos extras na plataforma:"}),x.jsxs("ul",{children:[x.jsx("li",{children:"Fundamentos básico e intermediários de React"}),x.jsx("li",{children:"Typescript"}),x.jsx("li",{children:"NextJS"}),x.jsx("li",{children:"Styled-Components"}),x.jsx("li",{children:"NodeJS"})]}),x.jsx("div",{className:"iframe-container",children:x.jsx("iframe",{src:"https://www.powtoon.com/embed/d5irvpoRrPA/",frameBorder:"0",allowFullScreen:!0})})]})]})}const Fm=ce.section`
+`;function Dm(){return x.jsxs(Rm,{id:"learn",className:"container",children:[x.jsx(or,{title:"Aprendizado",subtitle:"<ElasNaTech/>",classname:"end"}),x.jsxs("div",{className:"contentLearn",children:[x.jsx("p",{children:"Esses foram alguns tópicos que aprendi durante o programa:"}),x.jsxs("ul",{children:[x.jsx("li",{children:"Animações com CSS"}),x.jsx("li",{children:"SEO"}),x.jsx("li",{children:"Bootstrap"}),x.jsx("li",{children:"Automações AWS com Python"}),x.jsx("li",{children:"Python + ChatGPT para além de textos."})]}),x.jsx("p",{children:"Aprendizado com cursos extras na plataforma:"}),x.jsxs("ul",{children:[x.jsx("li",{children:"Fundamentos básico e intermediários de React"}),x.jsx("li",{children:"Typescript"}),x.jsx("li",{children:"NextJS"}),x.jsx("li",{children:"Styled-Components"}),x.jsx("li",{children:"NodeJS"})]})]})]})}const Fm=ce.section`
   align-items: center;
   
   .contacts {
@@ -586,6 +570,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     display: flex;
     flex-direction: column;
     
+    .iframe-container {
+      position: relative;
+      overflow: hidden;
+      max-width: 100%;
+      margin-top: 2rem;
+      padding-bottom: 56.25%; /* (9 / 16 * 100%) */
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     @media (max-width: 998px) {
       max-width: 100%;
     }
@@ -593,7 +592,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   @media (max-width: 998px) {
     align-items: center;
   }
-`;function Hm(){return x.jsxs(Vm,{id:"testimony",className:"container",children:[x.jsx(or,{title:"Depoimento",subtitle:"<ElasNaTech/>",classname:"start"}),x.jsx("div",{className:"contentTestimony",children:x.jsx(Aa,{children:x.jsxs("p",{children:[x.jsx("span",{children:"O programa é ótimo!"})," Principalmente para quem está buscando um ",x.jsx("span",{children:"primeiro"})," contato com o universo de ",x.jsx("span",{children:"desenvolvimento web"}),". Ter a acesso a uma gama de ",x.jsx("span",{children:"cursos"})," tão grande de forma ",x.jsx("span",{children:"GRATUITA"})," cria muitas possibilidades para que ",x.jsx("span",{children:"mulheres"})," que talvez não pudessem ter acesso a esse tipo de conteúdo possa de especializar e conhecer um mundo ",x.jsx("span",{children:"novo"})," e ",x.jsx("span",{children:"incrível"}),", como é o mundo da ",x.jsx("span",{children:"tecnologia"}),". Quando eu comecei o projeto, já tinha um pouco conhecimento em ",x.jsx("span",{children:"desenvolvimento web"}),". Sendo assim, eu dediquei todo meu tempo livre para fazer cursos extras que estavam disponíveis na prataforma da ",x.jsx("span",{children:"Udemy"}),", que, com certeza, em qualquer outro momento seria bem ",x.jsx("span",{children:"difícil"}),". Adquiri ",x.jsx("span",{children:"muito conhecimento"}),", conheci ",x.jsx("span",{children:"muitas pessoas"}),", com o pouco que sabia tentei ajudar quem precisava. E isso é muito gradificante. ",x.jsx("span",{children:"TODAS"})," em direção ao mesmo objetivo. 🚀"]})})})]})}const Gm=ce.section`
+`;function Hm(){return x.jsxs(Vm,{id:"testimony",className:"container",children:[x.jsx(or,{title:"Depoimento",subtitle:"<ElasNaTech/>",classname:"start"}),x.jsxs("div",{className:"contentTestimony",children:[x.jsx(Aa,{children:x.jsxs("p",{children:[x.jsx("span",{children:"O programa é ótimo!"})," Principalmente para quem está buscando um ",x.jsx("span",{children:"primeiro"})," contato com o universo de ",x.jsx("span",{children:"desenvolvimento web"}),". Ter a acesso a uma gama de ",x.jsx("span",{children:"cursos"})," tão grande de forma ",x.jsx("span",{children:"GRATUITA"})," cria muitas possibilidades para que ",x.jsx("span",{children:"mulheres"})," que talvez não pudessem ter acesso a esse tipo de conteúdo possa de especializar e conhecer um mundo ",x.jsx("span",{children:"novo"})," e ",x.jsx("span",{children:"incrível"}),", como é o mundo da ",x.jsx("span",{children:"tecnologia"}),". Quando eu comecei o projeto, já tinha um pouco conhecimento em ",x.jsx("span",{children:"desenvolvimento web"}),". Sendo assim, eu dediquei todo meu tempo livre para fazer cursos extras que estavam disponíveis na prataforma da ",x.jsx("span",{children:"Udemy"}),", que, com certeza, em qualquer outro momento seria bem ",x.jsx("span",{children:"difícil"}),". Adquiri ",x.jsx("span",{children:"muito conhecimento"}),", conheci ",x.jsx("span",{children:"muitas pessoas"}),", com o pouco que sabia tentei ajudar quem precisava. E isso é muito gradificante. ",x.jsx("span",{children:"TODAS"})," em direção ao mesmo objetivo. 🚀"]})}),x.jsx("div",{className:"iframe-container",children:x.jsx("iframe",{src:"https://www.powtoon.com/embed/d5irvpoRrPA/",frameBorder:"0",allowFullScreen:!0})})]})]})}const Gm=ce.section`
   display: flex;
   padding-bottom: 5rem;
   align-items: center;
